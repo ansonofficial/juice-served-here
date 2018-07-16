@@ -1,0 +1,205 @@
+/**********Global Styles*******/
+
+body {
+	color: #101010;
+
+font-family: "HelveticaNeue","Helvetica ;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1;
+	cursor: default;
+    -webkit-font-smoothing: antialiased;
+     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+
+}
+
+.wrapper {padding: 0 15px;
+	zoom: 1;
+    max-width: 1200px;
+    margin: 0 auto;}
+
+.main-content{
+	
+	    margin: 0px;
+	    display: block;
+	padding-bottom: 60px;
+	
+}
+
+
+
+/*****Top Bar Styles*****/
+
+
+.top-bar {
+	
+	position: relative;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: black;
+	
+}
+
+.top-bar p {
+	
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+	    margin-bottom: 0px;
+	line-height: 40px;
+    font-size: 12px;
+	
+}
+
+a#details-click {font-weight: 700;
+color: white;
+text-decoration: underline;
+	
+}
+
+.text-center {
+    text-align: center;
+}
+
+.notification {width: 100%;}
+
+
+
+
+/******Navigation Menu Styles ******/
+.site-header {position: relative;
+	    border-bottom: 1px solid #e1e1e1;
+	top: 0;
+	}
+
+.nav-bar {
+    background-color: #fff;
+}
+
+.site-nav{
+font-size: 0.92857em;
+    cursor: default;
+	margin: 0px;}
+
+
+.site-nav:first-child li:first-child {
+	    float: left;
+	
+	
+}
+
+ul li{
+	
+	text-transform: capitalize;
+    letter-spacing: 0.02em;
+}
+
+.site-nav>li {
+
+	position: relative;
+	display: inline-block;
+    padding-right: 20px;
+	    margin: 0;
+   
+}
+
+.nav-link {
+	
+	padding: 17px 0;
+	float: left;
+    text-transform: capitalize;
+	line-height: 36px;
+}
+
+a.nav-link {color: #101010;
+letter-spacing: 1px;
+	-webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+	font-size: 13px;
+}
+
+a.nav-link:hover {
+	    color: #f95951;
+	
+}
+
+ul.site-nav__dropdown {display: none;}
+
+.upper {text-transform: uppercase;}
+
+
+
+/****Slider*****/
+.slide {position: relative;}
+
+.slide img {width: 100%;}
+
+.slide-content {width: 100%;
+    -webkit-transform: translate(0, -200%);
+    -moz-transform: translate(0, -200%);
+    -ms-transform: translate(0, -200%);
+    transform: translate(0, -200%);
+    -o-transform: translate(0, -200%);
+    transform: translate(0, -200%);
+    margin-left: 8%;
+
+}
+
+.slide-content h1 {    line-height: 50px;
+	font-size: 50px;
+    margin-bottom: 40px;text-transform: uppercase;}
+
+.slide-content button {
+    background: #ff5e48;
+    border: none;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 700;
+	padding:  15px 35px;
+	
+	
+}
+
+.slide-content p {font-size: 18px;line-height: 25px;}
+
+
+/*********You Buy It By The Box*********/
+.buy-box {    margin-top: 50px;
+    margin-bottom: 85px;
+    margin-top: -200px;}
+
+.description { text-align: center;}
+
+.description h2 {text-transform: uppercase; letter-spacing: .02px;     margin-bottom: 35px;}
+
+.steps-wrap {text-align: center;}
+.step {margin-right: 90px; display: inline-block; position: relative;    margin: 0 auto;}
+
+.step-inner-wrap{padding-left: 40px;
+    position: relative;
+    display: inline-block;}
+
+.step .number {display: block;
+    font-size: 150px;
+    margin-top: -27px;
+    margin-bottom: -14px;
+    color: #ff5e48;}
+
+.step p { position: absolute;
+    left: 0px;
+    width: 100%;
+    text-align: left;
+    top: 35px;
+    max-width: 165px;}
+
+.step p .line {display: block;
+    height: 1px;
+    background: black;
+    width: 100%;}
+
+.step p span:not(.line){
+	
+	    font-size: 15px;
+    line-height: 20px;
+}
+}
